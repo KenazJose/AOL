@@ -13,4 +13,5 @@ urlpatterns = [
     # path('app/productView/',views.productView,name='productView'),
     path("app/products<int:myid>/", views.productView, name="productView"),
 
+
 ]

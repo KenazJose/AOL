@@ -17,8 +17,8 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">My Awesome Cart</a>
+    <nav class="navbar navbar-expand-lg bg-white text-dark border border-top-0 border-right-0 border-left-0 border-dark fixed-top">
+  <a class="navbar-brand text-secondary" href="#">My Awesome Cart</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -26,20 +26,20 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link text-secondary" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/app/about">About Us</a>
+        <a class="nav-link text-secondary" href="/app/about">About Us</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/app/tracker">Tracker</a>
+        <a class="nav-link text-secondary" href="/app/tracker">Tracker</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/app/contact">Contact Us</a>
+        <a class="nav-link text-secondary" href="/app/contact">Contact Us</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <form  method="get" action="/app/search/" class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="search" id="search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
     <button type="button" class="btn btn-secondary mx-2" id="popcart" data-bs-container="body" data-bs-toggle="popover" data-placement="bottom" data-html="true" data-bs-content="Bottom popover">
